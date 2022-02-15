@@ -9,9 +9,6 @@ from datetime import datetime
 random.seed(datetime.now().timestamp())
 
 
-# https://github.com/dwyl/english-words/
-
-
 def get_words():
     with open(
         os.path.join(os.path.dirname(__file__), "wrods_5.txt"), "r", encoding="utf-8"
